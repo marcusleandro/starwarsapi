@@ -42,7 +42,7 @@ Do a POST at /planets with a body in json form like this:
 		"climate": "Temperate",
 		"terrain": "Rain Forest",
 	}
-please note that all parametes 'name', 'climate' and 'terrain' are required otherwise a error can occur.
+please note that all parametes 'name', 'climate' and 'terrain' are required otherwise an error can occur.
 
 ### List Planets:
 
@@ -60,11 +60,6 @@ Do a GET at /planets/{id}, where {id} is the id of the planet to be searched.
 
 Do a DELETE at /planets/{id}, where {id} is the id of the planet to be deleted.
 
+## Note
 
-## Obs
-
-there is a documentation provided by Swagger at  `/swagger-ui.html`.
-
-
-
-
+There is a documentation provided by Swagger at  `/swagger-ui.html`.
