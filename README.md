@@ -36,13 +36,13 @@ In order to package the application run the command `mvn clean package` and see 
 
 ### Adding a Planet:
 
-Do a POST at /planets with a body in json form:
+Do a POST at /planets with a body in json form like this:
 	{
 		name: "Name XYZ",
 		climate: "Temperate",
 		terrain: "Rain Forest",
 	}
-
+please note that all parametes name, climate and terrain is required otherwise a error can occur.
 
 ### List Planets:
 
