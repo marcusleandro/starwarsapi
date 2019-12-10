@@ -52,7 +52,7 @@ public class AbstractControllerIT {
 	
 	
 	@Test
-	public void emptyTestToAvoidErrorInsurefirePlugin() {
+	public void emptyTestToAvoidErrorInSurefirePlugin() {
 		assertTrue(true, "This test must always pass.");
 	}
 	
