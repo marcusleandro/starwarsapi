@@ -24,9 +24,9 @@ Here you will find a Start Wars API project using Java, Spring Boot and MongoDB 
 
 ## Description:
 
-Since this is java maven spring boot project, you need the JVM installed in your machine in order to run. You also need to provide a Mongo database up and running to the application since it is a REST API that do reads and writes in a Mongo database that can be setted in [application.properties](.src/main/resources/application.properties) file by changing the value of the `spring.data.mongodb.uri` and `spring.data.mongodb.database` properties. The defaults for this values are `mongodb://localhost:27017` and `starwars` respectively, but you can change if needed.
+Since this is java maven spring boot project, you need the JVM installed in your machine in order to run. You also need to provide a Mongo database up and running to the application since it is a REST API that do reads and writes in a Mongo database that can be setted in [application.properties](src/main/resources/application.properties) file by changing the value of the `spring.data.mongodb.uri` and `spring.data.mongodb.database` properties. The defaults for this values are `mongodb://localhost:27017` and `starwars` respectively, but you can change if needed.
 
-Also there is a [application-test.properties](.src/main/resources/application-test.properties) file that can be changed in order to run the tests in the case that you want to use a different database in your tests. To run the tests just use the command `mvn clean verify` and see the output for tests.
+Also there is a [application-test.properties](src/main/resources/application-test.properties) file that can be changed in order to run the tests in the case that you want to use a different database in your tests. To run the tests just use the command `mvn clean verify` and see the output for tests.
 
 To run this project there is a Boot.java class that there is a main method, just run it or use the maven command: `mvn clean compile spring-boot:run` and see the results in [http://localhost:8080/](http://localhost:8080/)
 
