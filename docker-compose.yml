@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/api.dockerfile
+    container_name: starwarsapi_api
+    restart: always
+    depends_on: 
+      - mongo
+    links:
+      - mongo
+    ports:
+      - "8080:8080"
+    volumes:
+     - .:/usr/src/java-code
+   
+  mongo:
+    image: mongo
+    container_name: starwarsapi_mongo
+#    environment:
+#       - MONGO_INITDB_DATABASE=your-database-name
+#       - MONGO_INITDB_ROOT_USERNAME=mongo
+#       - MONGO_INITDB_ROOT_PASSWORD=mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_volume:/data/db
+      
+volumes:
+  mongo_volume:
