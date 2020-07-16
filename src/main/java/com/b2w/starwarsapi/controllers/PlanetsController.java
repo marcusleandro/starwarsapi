@@ -33,7 +33,7 @@ import com.b2w.starwarsapi.services.SwapiService;
  */
 @CrossOrigin
 @RestController
-@RequestMapping("/planets")
+@RequestMapping("/api/planets")
 public class PlanetsController {
 	
 	

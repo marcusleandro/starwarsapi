@@ -69,6 +69,24 @@
             <version>${springfox-swagger2.version}</version>
             <scope>compile</scope>
         </dependency>
+
+		<!-- STARTER SECURITY -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+        
+        <!-- aws.cognito.jwt.security.filter -->
+        <dependency>
+		    <groupId>com.ixortalk</groupId>
+		    <artifactId>ixortalk.aws.cognito.jwt.security.filter</artifactId>
+		    <version>0.0.7</version>
+		</dependency> 
 		
 		<!-- MONGO JAVA DRIVER -->
 		 <dependency>
