@@ -28,7 +28,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         
         <mongodb.version>3.11.3</mongodb.version>
-        <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+        <springfox-swagger2.version>2.10.0</springfox-swagger2.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 	</properties>
 
